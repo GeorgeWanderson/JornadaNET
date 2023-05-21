@@ -8,7 +8,9 @@ namespace JornadaNET
     {
         public static void Main(string[] args)
         {
-            EstruturaDeDados.ExibirAulaDeEstruturaDeDados();             
+            Evento.ExibirAulaOOP();
+            //EstruturaDeDados.ExibirAulaDeEstruturaDeDados();             
+            //RecursosBasicos.ExibirAulaDeRecursosBasicos();
         }
     }
 }

@@ -30,7 +30,7 @@ namespace JornadaNET.Entities
             listaV2.Add(4);
 
             var maiorQue2 = lista.Where(n => n > 2);
-            foreach(var numero in maiorQue2)
+            foreach (var numero in maiorQue2)
             {
                 Console.WriteLine(numero);
             }
@@ -44,6 +44,26 @@ namespace JornadaNET.Entities
             Console.WriteLine($"Media: {media}");
             Console.WriteLine($"Max: {max}");
             Console.WriteLine($"Min: {min}");
+
+            var dicionario = new Dictionary<int, string>
+            {
+                {0, "zero" },
+                {1, "um" },
+                {2, "dois" },
+                {3, "três" },
+                {4, "Quatro"}
+            };
+
+            var dicionarioV2 = new Dictionary<int, string>
+            {
+                [0] = "zero",
+                [1] = "um",
+                [2] = "dois",
+                [3] = "três",
+                [4] = "quatro"
+            };
+
+            Console.ReadLine();
         }
     }
 }
